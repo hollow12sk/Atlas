@@ -79,6 +79,12 @@ section {
     font-size: 3.2rem;
     font-weight: 700;
 }
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+span {
+    color: var(--main-color);
+}
 .home-content h1{
     font-size: 5.6rem;
     font-weight: 700;
@@ -99,4 +105,26 @@ section {
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+.btn:hover {
+    box-sizing: none;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
 }
