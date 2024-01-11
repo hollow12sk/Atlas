@@ -23,9 +23,13 @@ html {
 
 }
 body{
-
     background: var(--bg-color);
     color: var(--text-color);
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 section {
     min-height: 100vh;
