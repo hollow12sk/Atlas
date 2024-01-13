@@ -235,9 +235,7 @@ span {
     overflow: hidden;
     display: flex;
 }
-.portfolio-box img {
-    width: 100%;
-}
+
 
 .portfolio-box .portfolio-layer{
     position: absolute;
