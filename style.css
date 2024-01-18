@@ -10,7 +10,6 @@
     font-family: sans-serif;
 
 }
-
 :root{
     --bg-color: #1f242d;
     --second-bg-color: #323946;
@@ -121,13 +120,16 @@ span {
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
-    color: var(--second-bg-color);
-    letter-spacing: 0.5rem;
+    color: black;
+    letter-spacing: 0.3rem;
     font-weight: 600;
-    transition: .5s ease;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    
 }
 .btn:hover {
-    box-sizing: none;
+    transform: translateY(-10px);
+    
+    color: black;
 }
 .about{
     display: flex;
@@ -275,4 +277,63 @@ span {
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+.Achievements-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.Achievements-container .Achievements-box {
+    flex: 1, 1, 30rem;
+    background: var(--second-bg-color);
+    padding: 6rem 6rem 7rem;
+    border-radius: 6rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: 0.5s ease;
+}
+.Achievements-container .Achievements-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
 
+}
+.Achievements-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+.Achievements h2 {
+    margin-bottom: 5rem;
+}
+.Achievements-box a{
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.0;
+
+}
+.Achievements h3{
+    font-size: 3rem;
+    line-height: 2;
+}
+.Achievements p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.0;
+}
+.Achievements h2{
+    font-size: 5.6rem;
+    line-height: 1.5;
+}
+.Achievements-box P{
+    font-size: 1.6rem;
+    margin: 1rem 0 4rem;
+}
+.Achievements h4{
+    font-size: 3rem;
+    line-height: 2;
+}
+.Achievements h5{
+    font-size: 3rem;
+    line-height: 2;
+}
